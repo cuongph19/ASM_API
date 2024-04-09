@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/product"
+        android:icon="@drawable/d"
+        android:title="Product Management" />
+    <item
+        android:id="@+id/category"
+        android:icon="@drawable/c"
+        android:title="Category Management" />
+    <item
+        android:id="@+id/profile"
+        android:icon="@drawable/b"
+        android:title="Profile" />
+
+
+    <group android:checkableBehavior="single">
+        <item android:title="Khác">
+            <menu>
+                <item
+                    android:id="@+id/DoiMk"
+                    android:icon="@drawable/baseline_key_24"
+                    android:visible="false"
+                    android:title="Đổi mật khẩu" />
+                <item
+                    android:id="@+id/DangXuat"
+                    android:icon="@drawable/a"
+                    android:title="Đăng xuất" />
+            </menu>
+        </item>
+    </group>
+</menu>
